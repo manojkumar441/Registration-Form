@@ -1,0 +1,35 @@
+.main-container{
+  height:100vh;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke
+  ;
+}
+.form{
+  background-color: white;
+  box-shadow:  10px 5px 5px rgb(27, 27, 27);
+  border-radius: 12px;
+  width:50%;
+  height:auto;
+  display:flex;
+  flex-direction: column;
+
+
+}
+.input{
+  margin:0% 10%;
+  border-radius:3px;
+  padding:5px;
+  border: 1px solid #ccc
+}
+.label{
+  font-weight: bold;
+
+}
+.button{
+  margin:3% 10%;
+  border-radius:3px;
+   border: 1px solid #ccc
+}
